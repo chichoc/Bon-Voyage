@@ -1,0 +1,123 @@
+@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+.container {
+  background-color:#ecf0f1;
+  width:420px;                   
+  z-index:2;
+  display:block;
+  /*margin:190px auto;*/
+  /*position:relative;*/
+  margin-left: 900px;
+  border-radius:5px;
+  line-height:250px;     // 큰박스 세로
+ 
+}
+
+.nama {
+  width:420px;
+  display:block;
+/*  z-index:-2;
+  position:absolute;
+  left:50%;*/
+  margin:-15px 0px;
+   transition:0.3s all ease-out;
+}
+
+.nama h3 {
+  /*left:-50%;*/
+  color:white;
+  font-size:16px;
+  position:relative;
+  text-align:center;
+  background:#333949;
+  line-height:50px;                           //남색바크기
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
+.container:hover .nama {
+  margin:-55px 0;                              //남색바어디까지 날아가는지
+}
+
+.container:hover .me {
+  transform:scale(1.05);
+}
+
+.me {
+  border-radius:100%;                              //동그라미
+  width:40%;
+  display:block;
+  margin:0 auto;
+  margin-top:20px;
+  transform:scale(.95);
+  transition:.3s all ease;
+}
+
+ul.icons {
+  width:420px;   
+ // height: 300px; //수정
+  display:block;
+  list-style:none;
+  font-size:0;
+  margin:0px;                                        //수정해보기
+}
+
+ul.icons li:nth-child(1) {
+  background: #bdc3c7; 
+  transition:0.3s background ease-in;
+}
+ul.icons li:nth-child(2) {
+  background: #bdc3c7;
+  transition:0.3s background ease-in;
+}
+ul.icons li:nth-child(3) {
+  background: #bdc3c7;
+  transition:0.3s background ease-in;
+}
+
+
+ul.icons li:nth-child(1):hover {
+  background: #3B5997;
+}
+ul.icons li:nth-child(2):hover {
+  background: #00ACF0;
+}
+ul.icons li:nth-child(3):hover {
+  background: #DB4F48;
+}
+
+ul.icons li {
+  display:inline-block;
+  background: #bdc3c7;
+}
+
+ul.icons li:nth-child(1) {
+  border-bottom-left-radius:5px;             // 밑에 회색 둥그란 정도
+}
+
+ul.icons li:nth-child(3) {
+  border-bottom-right-radius:5px;
+}
+
+
+.icons li {
+  display:inline-block;
+  text-decoration:none;
+  overflow:hidden;
+}
+
+.icons i {
+	display: block;
+        color:white;
+        text-decoration:none;
+	font-size: 24px;
+	line-height: 50px; 
+        width: 140px;                       //수정해보기
+	text-align: center;                                    
+}

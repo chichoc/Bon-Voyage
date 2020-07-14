@@ -1,0 +1,328 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body {
+	margin:10px;
+        padding:0;
+        /*background-color: #ffffff;*/
+        background-image:url(../img/main_bg.png);
+	background-repeat:repeat-x;
+	font-family :'Jeju Gothic';
+	font-size:12px;
+	font-weight:normal;
+	color:#333333;
+}
+
+.view_body {
+	margin:10px;
+        padding:0;
+        /*background-color: #ffffff;*/
+        background-image:url(../img/view_bg.png);
+	background-repeat:repeat-x;
+	font-family : 'Jeju Gothic';
+	font-size:12px;
+	font-weight:normal;
+	color:#333333;
+}
+
+img {
+	border:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover, a:visited, a:link, a:active {
+	font-family:'Jeju Gothic';
+	font-size:12px;
+	font-weight:normal;
+	color:#555555;
+}
+
+ul, li {
+	margin: 0;
+	padding:0;
+	list-style:none;
+}
+
+.clear { clear:both; }
+
+.linespace_10 {
+	height:10px;
+}
+
+#myVideo {
+    margin-top :300px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#wrap {
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+        padding-left : 5px;
+	/*border:solid 1px #00ff00;*/
+}
+
+#header {
+	height:55px;
+/*	border:solid 1px #cccccc;  */
+	margin-top:15px;
+}
+
+#logo {
+	float:left;
+	margin-left:500px;
+
+}
+
+
+#top_login {
+	float:right;
+	margin-right:20px;
+}
+
+#menu {
+    
+	margin-top:80px;
+}
+
+.menus {
+	float:left;
+
+}
+
+#content {
+	overflow:hidden;
+	margin-top:10px;
+	width:998px;
+	min-height: 600px;
+}
+
+#main_img {
+	margin-top:-400px;
+        
+}
+
+#content #col1 {
+	margin-top:40px;
+	width:160px;
+	min-height:600px;
+	float:left;
+	border-right:solid 1px #dddddd;
+}
+
+#content_body{
+        margin-top:180px;
+        padding-left: 100px;
+}
+#content_index{
+        margin-top:100px;
+        padding-left: 600px;
+}
+
+#left_menu {
+	width:92%;
+	height:270px;
+	margin-left:7px;
+}
+
+#left_menu #sub_title{
+	padding-top:10px;
+	height:30px;
+	/*border-bottom:solid 1px #dddddd;*/
+}
+
+#left_menu #sub_title img{
+	padding-left:10px; 
+/*	padding-top:20px;   */
+}
+
+#left_menu ul{
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom:100px;
+/*	border-bottom:solid 1px #dddddd; */
+}
+
+#left_menu li{
+	padding:5px;
+}
+
+
+#latest {
+	width:1000px;
+}
+
+#latest1 {
+	width:46%;
+	height:250px;
+	float:left;
+	padding-right:20px;
+	margin:15px 0 0 20px;
+	border-right:solid 1px #dddddd;
+}
+
+#title_latest1 {
+	height:30px;
+	border-bottom:solid 2px #dddddd;
+}
+
+#title_latest1 img {
+	padding-bottom:5px;
+}
+
+
+.latest_box {
+	margin-top:5px;
+/*	border-bottom:dotted 1px #dddddd; */
+}
+
+.latest_box .col1 {
+	width:65%;
+	float:left;
+	padding:5px 5px 4px 3px;
+}
+
+.latest_box .col2 {
+	width:30%;
+	float:left;
+        padding-left :100px;
+	padding:5px 5px 4px 3px;
+}
+
+.latest_box .col3 {
+	float:left;
+	padding:5px 5px 4px 3px;
+}
+
+#latest2 {
+	width:46%;
+	float:left;
+	margin:15px 0 0 18px;
+}
+
+#title_latest2 {
+	height:30px;
+	border-bottom:solid 2px #dddddd;
+}
+
+#title_latest2 img {
+	padding-bottom:5px;
+}
+
+.img_box{
+        margin-top:10px;
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    /*background-color:  Set a background color */
+    color: #717171; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.img-circle {
+    border-radius: 50%;
+    float :left;
+    
+}
+
+.main{
+    padding-left : 100px;
+}
+.view{
+    margin :auto;
+}
+
+.view_content{
+    width : 1000px;
+    padding-left: 300px;
+}
+
+.view_c{
+    padding-left : -100px;
+}
+
+.write_content{
+    padding-left : 200px;
+    margin-top :150px;
+    width :500px;
+    width :700px;
+    border:solid 1px #dddddd;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.footer {
+    height: 100px;
+    background : #29323f;
+    text-align : center;
+    padding-top: 48px;
+    padding-bottom: 55px;
+}
+
+.footer a {
+  font-size: 15px;
+  color: #E6E6E6;
+}
+
+.footer p {
+    font-size : 13px;
+    color:#595959;
+}
+#guide_view{
+    padding-left: 200px;
+}

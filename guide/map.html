@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset="UTF-8">
+<h1>제목</h1>
+
+<div id="googleMap" style="width:50%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(37.609777, 126.997676),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+var marker = new google.maps.Marker({position: myCenter});
+marker.setMap(map);
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbW4BIrBQeyvuM8D3R8SBgWuwD1sguH2k&callback=myMap"></script>
+
+</body>
+</html>
